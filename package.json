@@ -1,0 +1,10 @@
+{
+  "name": "statpocket-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Measured review of statpocket.com.",
+  "scripts": {
+    "dev": "node init && python3 -m http.server 4321",
+    "deploy": "vercel --prod"
+  }
+}
